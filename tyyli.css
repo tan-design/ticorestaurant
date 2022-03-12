@@ -1,0 +1,152 @@
+
+
+body {
+    font-family:  'Catamaran', sans-serif;
+    position: relative;
+    background-color: rgba(241, 135, 187, 0.8);
+}
+
+
+
+/*taustan väri */
+.navbar {
+    background-color: rgba(137, 17, 76, 0.9);
+
+}
+
+. navbar img {margin-left: 10px !important;}
+a. nav-link {margin-left: 5px !important;}    
+
+}
+
+.nav-link.active {
+    color: white !important;
+}
+
+.card-header {
+    color: rgba(137, 17, 76, 0.9);
+}
+
+.card-link {
+    color: white !important;
+}
+
+.card img {
+    width: 100%;
+    max-height: 280px;
+    max-width: 500px;
+}
+
+/* brandin ja tekstin väri */
+.navbar .navbar-brand,
+.navbar .navbar-text {
+    color: rgba(241, 135, 187, 0.8);
+}
+
+/* linkin väri */
+.navbar .navbar-nav .nav-link {
+    color: rgba(241, 135, 187, 0.8);
+}
+
+/* aktiivisen & hover-linkin väri */
+.navbar .nav-item.active .nav-link,
+.navbar .nav-item.hover .nav-link {
+    color: #ffffff;
+}
+
+/* hampurilaiskuvion väri */
+.custom-toggler .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(238, 238, 0, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+.nav-item .dropdown-menu a:hover {
+            color: white !important;
+            background: pink !important;
+            cursor: pointer;
+  }
+
+/* karuselli */
+.carousel-inner img {
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    min-height: 200px;
+    max-height: 600px;
+}
+
+}
+
+.carousel-control-prev-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%C71585' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
+}
+
+.carousel-control-next-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%C71585' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
+}
+
+#ravintola {
+    background-color: rgba(137, 17, 76, 0.9);
+    color: lightyellow;
+    padding-top: 70px;
+    padding-bottom: 40px;
+    margin-left: 0px;
+    margin-right: 0px;
+    max-width: 100%;
+
+
+}
+
+/* grid */
+#ravintola img {
+    width: 100%;
+    max-width: 500px;
+    border-radius: 50% 0% 30%;
+    padding-left: 0px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    
+}
+
+#ravintola {text-align: center;
+        background-color: rgba(137,17,76,0.9);
+        color:  rgba(241,135,187, 0.8);
+        padding:70px 30px 30px 30px;}
+
+.container {
+    padding: 5px 0px;
+}
+
+#ravintola #demo {padding-top: 40px;}
+
+#accordion .card-header {background-color: rgba(137,17,76,0.9);
+                       }
+
+#videot {
+    width: 100%;
+    max-width: 800px;
+    margin-top: 40px;
+    
+}
+
+#videot .nav-link.active {
+    color: palevioletred;
+    background-color: antiquewhite
+}
+
+#videot .nav-link {
+    color: antiquewhite;
+    background-color: palevioletred
+}
+
+label {display:inline-block;                                                                    text-align:left; 
+       width:10em;
+       vertical-align: top;} 
+ 
+
+}
+
+
+@media (max-width: 600px) {
+    .carousel-caption {
+        display: none;
+    }
+}
