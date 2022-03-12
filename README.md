@@ -1,2 +1,2 @@
 # ticorestaurant
-nettisivusto
+nettisivusto (Bootstrap)
